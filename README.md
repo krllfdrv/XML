@@ -1,7 +1,7 @@
 # XML
 21. Создать внешний репозиторий c названием XML. 
  22. Клонировать репозиторий XML на локальный компьютер. 
- `mkdir XML`  
+`mkdir XML`  
 `cd XML`  
 `git clone https://github.com/krllfdrv/XML.git` 
  23. Внутри локального XML создать файл “new.xml”. 
