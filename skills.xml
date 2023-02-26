@@ -1,0 +1,51 @@
+<root>
+  <skills>
+    <name>Fundamentals of Software Testing</name>
+    <subskills>
+      <subskill>Types of testing (functional, integration, system, etc.)</subskill>
+      <subskill>Test design (creating test cases, test plans)</subskill>
+      <subskill>Reporting on testing (writing reports, tracking defects)</subskill>
+    </subskills>
+  </skills>
+  <skills>
+    <name>Automated Testing</name>
+    <subskills>
+      <subskill>Basics of test automation</subskill>
+      <subskill>Writing automated tests (using programming languages, testing tools, etc.)</subskill>
+      <subskill>Integrating automated tests into the development process</subskill>
+    </subskills>
+  </skills>
+  <skills>
+    <name>Programming Fundamentals</name>
+    <subskills>
+      <subskill>Basics of programming languages (e.g. Python, Java, JavaScript)</subskill>
+      <subskill>Basics of structured and object-oriented programming</subskill>
+      <subskill>Working with an integrated development environment (IDE)</subskill>
+    </subskills>
+  </skills>
+  <skills>
+    <name>Database Fundamentals</name>
+    <subskills>
+      <subskill>Working with databases (SQL)</subskill>
+      <subskill>Basics of data modeling</subskill>
+      <subskill>Testing databases</subskill>
+    </subskills>
+  </skills>
+  <skills>
+    <name>Agile and Scrum</name>
+    <subskills>
+      <subskill>Basics of Agile methodologies</subskill>
+      <subskill>Scrum framework</subskill>
+      <subskill>Working in an Agile team</subskill>
+    </subskills>
+  </skills>
+  <skills>
+    <name>Communication Skills</name>
+    <subskills>
+      <subskill>Communicating with developers and project managers</subskill>
+      <subskill>Documenting the testing process</subskill>
+      <subskill>Presenting testing results</subskill>
+    </subskills>
+  </skills>
+</root>
+
