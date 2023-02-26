@@ -19,13 +19,28 @@
  `vim new.xml`  
 `cat new.xml` 
  28. Отправить изменения на внешний репозиторий. 
+ `git status`  
+`git commit -am "added main info"` 
+`git push`  
  29. Создать файл preferences.xml 
+ `touch preferences.xml`
  30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML. 
- 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML 
+ `vim preferences.xml`  
+`cat preferences.xml` 
+ 31. Создать файл skills.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML 
+ `touch skills.xml`
+ `vim skills.xml`  
+`cat skills.xml`
  32. Сделать коммит в одну строку. 
+ `git status`  
+`git add  preferences.xml skills.xml`  
+`git status`  
+`git commit -m "added skills and preferences"`  
  33. Отправить сразу 2 файла на внешний репозиторий. 
+ `git push`  
  34. На веб интерфейсе создать файл bug_report.xml. 
  35. Сделать Commit changes (сохранить) изменения на веб интерфейсе. 
  36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML. 
  37. Сделать Commit changes (сохранить) изменения на веб интерфейсе. 
  38. Синхронизировать внешний и локальный репозиторий XML 
+ `git pull`
