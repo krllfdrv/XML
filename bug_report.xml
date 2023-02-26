@@ -1,1 +1,27 @@
+<bugreport>
+  <product>Example App</product>
+  <version>1.2.3</version>
+  <component>Login Screen</component>
+  <severity>High</severity>
+  <summary>Error message not displayed when logging in with incorrect password</summary>
+  <description>When attempting to log in with an incorrect password, the user is not presented with an error message and the login process appears to hang. The issue occurs consistently on both iOS and Android devices.</description>
+  <steps_to_reproduce>
+    <step>Launch the app</step>
+    <step>Navigate to the login screen</step>
+    <step>Enter a valid username</step>
+    <step>Enter an incorrect password</step>
+    <step>Attempt to log in</step>
+  </steps_to_reproduce>
+  <expected_result>The app should display an error message indicating that the password is incorrect</expected_result>
+  <actual_result>No error message is displayed and the login process appears to hang</actual_result>
+  <environment>
+    <device>iPhone X</device>
+    <os>iOS 14.5.1</os>
+    <network>WiFi</network>
+  </environment>
+  <attachments>
+    <attachment>screenshot.png</attachment>
+    <attachment>app.log</attachment>
+  </attachments>
+</bugreport>
 
